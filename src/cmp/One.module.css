@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+
+
+
+
+.img{
+    width: 100%;
+}
+
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time,.qno{
+  margin: 5px;
+}
+
+
+.start{
+  margin: 5px;
+  width: 100%;
+  background: linear-gradient(to right,#196BCA ,#6433E0);
+  background-color: #196BCA;
+  color: #fff;
+  font-family: Trebuchet MS;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  padding: 14px 15px;
+  border: 0px solid #000;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .start:hover{
+  background: linear-gradient(to right,#5482d0 ,#7d5ee3);
+  background-color: #5482d0;
+ }
+.start:active{
+  transform: scale(0.95);
+ }
